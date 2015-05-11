@@ -1,0 +1,46 @@
+.fil{
+	text-align: left;
+}
+.fil li:first-child{
+	margin-left: 50px;
+}
+.panel{
+	height: 600px;
+	overflow: auto;
+}
+.arborescence{
+	background-color: #EDEDED;
+}
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style : none;
+	text-align: left;
+	margin-top : 20px;
+	padding-left: 10px;
+}
+ul .sousdossier{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+table th{
+	text-align: left;
+}
+table tbody td{
+	text-align: left;
+	font-size: 12px;
+	color: #AAA;
+}
+ol .images,ul .images,table .images{
+	width: 20px;
+	height: 20px;
+	margin : 0;
+}
+table .filename{
+	color: black;
+}

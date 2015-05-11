@@ -1,0 +1,18 @@
+.jumbotron{
+	padding-bottom: 20px;
+}
+.parameters .jumbotron {
+	min-height: 270px;
+	margin-bottom: 0;
+}
+.parameters .head {
+	color: #000;
+	font-size: 1.7em;
+}
+.parameters p {
+	color: #000;
+	text-align: center;
+}
+.parameters p.foot {
+	font-size: 1em;
+}

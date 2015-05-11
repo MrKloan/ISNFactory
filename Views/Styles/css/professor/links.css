@@ -1,0 +1,18 @@
+#links a[class*="-link"] {
+	font-size: 18px;
+	cursor: pointer;
+}
+#links a[class*="-link"]:hover {
+	text-decoration: none;
+}
+#links a.update-link {
+	color: #8e5700;
+}
+#links button.remove-link {
+	color: #bb0000;
+	text-decoration: none;
+}
+
+#links .modal .row {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+.ajout{
+	cursor: pointer;
+}
+
+.view-courses{
+	color: #7C94FF;
+}
+
+.update-courses{
+	color: #8e5700;
+}
+
+.remove-courses{
+	color:#bb0000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+input[type="file"]{
+	margin: 30px auto 20px auto;
+}

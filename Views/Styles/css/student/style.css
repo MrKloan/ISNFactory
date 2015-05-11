@@ -1,0 +1,131 @@
+@font-face{
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  	   url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+  	   url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+  	   url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	text-align: center;
+}
+
+.header form {
+	margin-top: 10px;
+}
+
+.header img {
+	margin-top: 5%;
+}
+
+.params{
+	font-size: 40px;
+}
+.params:hover{
+	text-decoration: none;
+}
+
+.titre{
+	padding-top: 50px;
+	height: 150px;
+}
+
+[class*="background"] {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+[class*="background"] .modal, [class*="background"] .modal p{
+    color: black;
+}
+
+[class*="background"] img {
+	height: 60%;
+	width: 60%;
+	margin-top: 10%;
+}
+
+[class*="background"] h1 {
+	font-size: 2em;
+	color: white;
+	margin: 20px;
+}
+
+[class*="background"] h2 {
+	font-size: 1.5em;
+	color: white;
+	margin: 20px;
+}
+
+[class*="background"] p {
+	width: 75%;
+	color: #ddd;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+.background1 {
+    background-color: #EB7559;
+}
+
+.background2 {
+	background-color: #ddd;
+}
+
+.background3 {
+	background-color: #091E3D;
+}
+
+hr {
+	border: 1px solid #EB7559;
+	border-bottom: none;
+}
+
+.groups{
+	padding-top: 40px;
+}
+
+.footer{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	text-align: center;
+}
+
+.footer a {
+	margin-top: 50%;
+}
+
+.footer img {
+	margin: 5px;
+}
+
+table {
+	font-size: 15px;
+}
+
+table th{
+	text-align:center;
+}
+
+#log-popup {
+	z-index: 1000;
+	position: fixed;
+	top: 35px;
+	right: 20px;
+	width: 15%;
+}
+#log-popup.alert-danger	 {
+	box-shadow: 2px 2px 2px #8b0000;
+}
+#log-popup.alert-success {
+	box-shadow: 2px 2px 2px #008b00;
+}

@@ -1,0 +1,24 @@
+#notes{
+	padding-top: 40px;
+}
+
+#notes .panel-body {
+	padding: 0;
+}
+
+#notes a.update-note {
+	font-size: 18px;
+	color: #8e5700;
+}
+
+#notes a:hover {
+	text-decoration: none;
+}
+
+#notes .modal .row {
+	margin-bottom: 10px;
+}
+
+.panel.panel-trimesters table {
+ margin-bottom: 0px;
+}

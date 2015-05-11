@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule (.*).php ../../Views/404.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) ../../Views/404.php [L]

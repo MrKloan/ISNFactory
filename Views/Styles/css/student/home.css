@@ -1,0 +1,92 @@
+.periods{
+	padding-top: 20px;
+}
+
+.calendar {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	background-color: #e8e8e8;
+}
+.calendar tr td:nth-of-type(n) {
+	border-bottom: 2px solid #fff;
+}
+.calendar thead tr:first-child th {
+	font-weight: bold;
+}	
+.calendar th {
+	color: #f5f5f5;
+	background-color: #04a5bc;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 10px;
+}
+.calendar th a[id^="linkMonth"] {
+	color: #ddd;
+	text-shadow: 1px 1px 1px #777;
+}
+.calendar th a[id^="linkMonth"]:hover {
+	color: #EB7559;
+}
+.calendar td {
+	width: 100px;
+	height: 70px;
+	background: -webkit-linear-gradient(bottom, #e8e8e8, #ddd 70%);
+	background: -o-linear-gradient(bottom, #e8e8e8, #ddd 70%);
+	background: -moz-linear-gradient(bottom, #e8e8e8, #ddd 70%);
+	background: -ms-linear-gradient(bottom, #e8e8e8, #ddd 70%);
+	background: linear-gradient(to bottom, #e8e8e8, #ddd 70%);
+}
+.calendar td:hover{
+	background:#ffffff;
+	cursor:pointer;
+}
+.calendar td .day{
+	color:#000;
+	font-size:20px;
+}
+.calendar td.padding{
+	background: linear-gradient(to bottom, #ccc, #ddd 70%);
+}
+.calendar td.padding:hover {
+	background: #ccc;
+	cursor: default;
+}
+.calendar td .events{
+	position:relative;
+	width:79px;
+	height:0px;
+	margin:-39px 0px 0px;
+	padding:0px;
+}
+.calendar td a {
+	text-decoration: none;
+}
+.calendar td.today {
+	background: linear-gradient(to bottom, #04a5bc, #ddd 95%);
+}
+.calendar td.today:hover {
+	border: 3px solid #04a5bc;
+	background: #ffffff;
+}
+/* Indicateur d'évènement */
+.calendar td div[class*="identifier"] {
+	width: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.calendar td div.identifier-homeworks {
+	border-bottom: 3px solid #04a5bc;
+}
+.calendar td div.identifier-projects {
+	border-bottom: 3px solid #EB7559;
+}
+.calendar td div.identifier-todo {
+	border-bottom: 3px solid #209333;
+}
+
+div.panel.panel-default div.tab-content {
+ margin-bottom: -20px;
+}

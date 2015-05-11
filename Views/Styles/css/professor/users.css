@@ -1,0 +1,30 @@
+#grades{
+	padding-top: 40px;
+}
+
+#grades .panel-body {
+	padding: 0;
+}
+
+#grades a[class*="-user"] {
+	font-size: 18px;
+}
+#grades button.remove-user, button.remove-user:hover {
+	color: #bb0000;
+	text-decoration: none;
+}
+#grades a.edit-user {
+	color: #00bb00;
+}
+#grades a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#grades .modal .row {
+	margin-bottom: 10px;
+}
+
+#grades .panel-body table {
+ margin-bottom: 0px;
+}

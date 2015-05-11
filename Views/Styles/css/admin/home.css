@@ -1,0 +1,23 @@
+.thumbnail{
+	border-radius:10px;
+	cursor:default;
+}
+
+.thumbnail-img{
+	height: 157px;
+}
+
+.thumbnail-txt{
+	height: 50px;
+	overflow: hidden;
+}
+
+.thumbnail p{
+	padding-top: 15px;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.thumbnail a{
+	width:100%;
+}

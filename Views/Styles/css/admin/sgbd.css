@@ -1,0 +1,22 @@
+#sgbd textarea {
+	margin-bottom: 15px;
+	min-height: 125px;
+}
+
+#sgbd .log {
+	margin-bottom: 0;
+	padding: 10px;
+	text-align: left;
+}
+
+#sgbd .head {
+	color: #000;
+	font-size: 1.4em;
+}
+
+#sgbd .panel .input-group {
+	margin: 20px;
+}
+#sgbd .custom-panel {
+	padding-bottom: 10px;
+}

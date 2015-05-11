@@ -1,0 +1,24 @@
+#users .panel-body {
+	padding: 0;
+}
+
+#users a[class*="-user"], button[class*="-user"] {
+	font-size: 18px;
+}
+#users button.btn.remove-user {
+	margin: 0;
+	padding: 0;	
+}
+#users button.remove-user {
+	color: #bb0000;
+}
+#users a.edit-user {
+	color: #00bb00;
+}
+#users button:hover, a:hover {
+	text-decoration: none;
+}
+
+#users .modal .row {
+	margin-bottom: 10px;
+}

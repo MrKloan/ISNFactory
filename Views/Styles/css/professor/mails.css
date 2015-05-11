@@ -1,0 +1,25 @@
+table tr {
+	cursor: pointer;
+}
+
+.modal-body {
+	text-align: justify;
+}
+
+#head{
+	padding: 10px 15px;
+}
+
+.newmail{
+	padding-bottom: 20px;
+}
+
+.space{
+	margin-bottom: 20px;
+}
+
+.receive{
+ max-height: 300px;
+ overflow: auto;
+ margin-bottom: -20px;
+}
